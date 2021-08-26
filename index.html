@@ -22,10 +22,13 @@
         <div class="container">
              <div class="mainDetails">
                 <div class="Main">
+                    <img src="images/1.png" width="13px">
                     <h5>
                         Featured Places to Stay
                     </h5>
                         <hr>
+                        <div class="img_gif">
+                        <img src="images/star--v2.gif" width="9px" marginTop ="200px" ></div>
                         <h1>A little something for everyone</h1>
                         <p>Discover  the  best  things  to  do  in  Washington  DC,  from  events  happening <br>right    to  annual
                             festivals  and  so  much  more  you.
@@ -207,9 +210,13 @@
     $('.owl-carousel').slick({
   dots: true,
   infinite: true,
+  arrows: true,
+  prevArrow:"<img class='a-left control-c prev slick-prev' src='images/left.png' >",
+ nextArrow:"<img class='a-right control-c next slick-next' src='images/right.png'>",
   speed: 300,
   slidesToShow: 4,
   slidesToScroll: 4,
+  
   responsive: [
     {
       breakpoint: 1024,

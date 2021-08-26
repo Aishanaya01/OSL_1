@@ -54,7 +54,8 @@ body {
 
 .mainDetails .btn {
   float: left;
-  margin-left: 100px; }
+  margin-left: 100px;
+  margin-top: 41px; }
 
 .container1 {
   width: 200vw;
@@ -75,9 +76,11 @@ body {
   display: inline-block;
   overflow: visible; }
 
-.slick-prev:before,
-.slick-next:before {
-  color: black; }
+.control-c {
+  width: 30px;
+  height: 30px;
+  border-radius: 1px;
+  border-color: #7D3269; }
 
 .container1 .box .imgBox {
   position: relative;
