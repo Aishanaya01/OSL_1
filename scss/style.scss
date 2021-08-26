@@ -8,7 +8,7 @@ body {
   padding: 0;
   background: $primarycolor;
 }
-.upMain{
+.Main{
   padding: 0 0 0 152px;
   margin-bottom: 39px;
 }
@@ -17,7 +17,7 @@ body {
   margin-left: 60px;
   margin-right: 30px;
 }
-.upperDetails{
+.mainDetails{
   display: flex;
   flex-flow: row;
   padding-left: 10px;
@@ -28,7 +28,7 @@ body {
   flex-wrap: wrap;
   margin-right: -15px;
 }
-.container .upperDetails .upMain h5{
+.container .mainDetails .Main h5{
   color: #466e82;
   margin: 0px -23px 0;
   padding: 0 0 0 10px;
@@ -36,28 +36,28 @@ body {
   font-style: italic;
 
 }
-.container .upperDetails .upMain hr{
+.container .mainDetails .Main hr{
   width: 127px;
   height: 1px;
   background-color:#666666;
   text-align: left;
   margin:14px 0px 0px -98px;
  }
-.container .upperDetails .upMain h1{
+.container .mainDetails .Main h1{
   display: block;
   font-size: 36px;
   margin:13px -50px 0;
   font-weight: bold;
 }
 
-.container .upperDetails .upMain p{
+.container .mainDetails .Main p{
   font-size: 21px;
   letter-spacing: 1.05px;
   color: #4D4D4D;
   margin: 24px -50px 0;
 } 
 
-.upperDetails .btn{
+.mainDetails .btn{
   float: left;
   margin-left: 100px;
 }   
@@ -107,7 +107,7 @@ body {
   transform:translate(0.9);
 }
 
-/*button---------------------------*/
+/*button-*/
 button:hover {
   cursor: pointer;
 }
@@ -125,7 +125,7 @@ button {
     overflow: hidden;
 }
 
-/*button:before (attr data-hover)*/
+/*button:before (after data-hover)*/
 button:hover:before {
   opacity: 1;
   transform: translate(0, 0);
@@ -165,7 +165,7 @@ button div {
   text-align: center;
   transition: all .3s ease-in-out;
 }
-/*details------------------*/
+/*details*/
 .container1 .box .details{
   position: absolute;
   bottom: 210px;
@@ -252,7 +252,7 @@ button div {
   -webkit-box-orient: vertical;
 
 }
-/*inner button--------------------*/
+/*inner button*/
 .container1 .box .details .content button{  
   margin-top: 5px;
   margin-left: 20px;
@@ -267,7 +267,7 @@ button div {
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (max-device-width : 320px) {
-  .upperDetails{
+  .mainDetails{
     padding-left: 15px;
     margin-left: -137px;
   
@@ -279,7 +279,7 @@ button div {
   }
   }
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-  .upperDetails{
+  .mainDetails{
     padding-left: 15px;
     margin-left: -137px;
   
@@ -291,7 +291,7 @@ button div {
   }
   }
 @media only screen and (min-device-width : 481px) and (max-device-width : 768px) {
-  .upperDetails{
+  .mainDetails{
     padding-left: 15px;
     margin-left: -137px;
   
@@ -303,7 +303,7 @@ button div {
   }
   }
 @media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
-  .upperDetails{
+  .mainDetails{
     padding-left: 15px;
     margin-left: -137px;
   
@@ -314,9 +314,9 @@ button div {
     height: 25px;
   }
   }
-  
+      
 @media only screen and (min-device-width : 1024px) and (max-device-width : 1260px) {
-  .upperDetails{
+  .mainDetails{
     padding-left: 10px;
     margin-left: 100px;
     
@@ -328,4 +328,4 @@ button div {
     height: 25px;
     
   }
-  }
+  }    
